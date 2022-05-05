@@ -9,7 +9,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">@dimen/bsp_gridpicker_button_height</item>
         <item name="android:focusable">true</item>
-        <item name="layout_columnWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
     </style>
 
     <style name="BSP_Base_GridPickerTextButtonStyle" parent="BSP_GridPickerButtonStyle">
@@ -25,7 +25,7 @@
     <style name="BSP_NumberPadTimePicker_AltTextButtonStyle" parent="BSP_GridPickerTextButtonStyle">
         <item name="android:textSize">@dimen/bsp_numberpad_time_picker_alt_button_text_size</item>
         <item name="android:fontFamily">sans-serif</item>
-        <item name="layout_gravity">fill_vertical</item>
+        <item name="android:layout_gravity">fill_vertical</item>
     </style>
 
     <style name="BSP_NumberPadTimePicker_Base_InputTimeStyle" parent="TextAppearance.AppCompat">
@@ -50,7 +50,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginTop">@dimen/bsp_bottom_sheet_grid_picker_fab_margin</item>
         <item name="android:layout_marginBottom">@dimen/bsp_bottom_sheet_grid_picker_fab_margin</item>
-        <item name="elevation">@dimen/bsp_bottom_sheet_grid_picker_fab_elevation</item>
+        <item name="android:elevation">@dimen/bsp_bottom_sheet_grid_picker_fab_elevation</item>
     </style>
 
     <style name="BSP_NumberPadTimePicker_FabStyle" parent="BSP_NumberPadTimePicker_Base_FabStyle">
